@@ -1,0 +1,37 @@
+# ============================
+# Grammar Enhancer Project Requirements
+# ============================
+
+# Core NLP
+spacy==3.7.2
+language-tool-python==2.7.1
+
+# Grammar & Correction Tools
+git+https://github.com/PrithivirajDamodaran/Gramformer.git
+textblob==0.17.1
+pyspellchecker==0.8.1
+autocorrect==2.6.1
+
+# Machine Learning & Transformers
+transformers==4.36.2
+torch==2.4.1+cpu --index-url https://download.pytorch.org/whl/cpu
+happytransformer==3.0.0
+
+# Data & Utility Libraries
+pandas==2.1.3
+nltk==3.9.1
+tqdm==4.66.4
+regex==2024.5.15
+requests==2.32.3
+
+# Streamlit (for Web UI)
+streamlit==1.38.0
+
+# Testing
+pytest==8.3.3
+
+# Notes:
+# languagetool is Java-based — it works through language-tool-python (already included)
+# Ensure Java 11+ is installed for full grammar functionality
+# below line for manual installation of spacy model
+# pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
