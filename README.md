@@ -20,8 +20,3 @@ Input: **Phase-5 output** (word-order fixed)
 Output: **Phase-11 ready** (ready for adjective/adverb polishing)
 
 ---
-
-## Quick Start
-```bash
-pip install -r requirements.txt
-python demo.py
